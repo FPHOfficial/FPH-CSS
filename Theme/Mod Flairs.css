@@ -76,7 +76,7 @@ animation: rainbowbar 1s linear infinite;
 }
 
 
-/* Shmmuks *//
+/* Shmmuks */
 
 .content a[href$="/user/shmuklidooha"]:after {
 content: "Figuratively Hitler";
