@@ -128,7 +128,7 @@ border: 0px !important;
 /* Achtung */
 
 .content a[href$="/user/Archangelle_Achtung"]:after {
-content: "bustablich Hitler";
+content: "buchstäblich Hitler";
 color: white !important;
 border: 0px !important;
 padding: 3px !important;
