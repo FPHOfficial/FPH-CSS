@@ -134,9 +134,9 @@ border: 0px !important;
 padding: 3px !important;
 border-radius: 5px !important;
 text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
-background: linear-gradient(left,#fec12e,#fac258)!important;
-background: -webkit-linear-gradient(left,#fec12e,#fac258)!important;
-background: -moz-linear-gradient(left,#fec12e,#fac258)!important;
+background: linear-gradient(left,#fec12e,#58d5fa)!important;
+background: -webkit-linear-gradient(left,#fec12e,#58d5fa)!important;
+background: -moz-linear-gradient(left,#fec12e,#58d5fa)!important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
