@@ -2,17 +2,18 @@
 
  .content a[href$="/user/The_Penis_Wizard"]:after {
 content: "Literally Hitler";
-border: 0px !important;
 color: white !important;
 padding: 3px !important;
-border-radius: 40px !important;
+border: 0px !important;
+border-radius: 5px !important;
 text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
-background: linear-gradient(left,#FA58F4,#FA58F4,#F5BCA9,#F5BCA9,#F5BCA9,#F5BCA9) !important;
-background: -webkit-linear-gradient(left,#FA58F4,#FA58F4,#F5BCA9,#F5BCA9,#F5BCA9,#F5BCA9) !important;
-background: -moz-linear-gradient(left,#FA58F4,#FA58F4,#F5BCA9,#F5BCA9,#F5BCA9,#F5BCA9) !important;
+background: linear-gradient(left,#c10b0b,#c10b0b,#c10b0b,#df0101,#df0101) !important;
+background: -webkit-linear-gradient(left,#c10b0b,#c10b0b,#c10b0b,#df0101,#df0101) !important;
+background: -moz-linear-gradient(left,#c10b0b,#c10b0b,#c10b0b,#df0101,#df0101) !important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+
 
 /* Homer */
 
@@ -112,17 +113,16 @@ animation: rainbowbar 1s linear infinite;
 
 .content a[href$="/user/HamathaMcBeetusButt"]:after {
 content: "Poetically Hitler";
-    color: #1CC50C !important;
-line-height: !important;
-    padding: 3px !important;
+color: white !important;
 border: 0px !important;
-    border-radius: 5px !important; 
-    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
-     background: linear-gradient(left,green,green,green,green,black,green,black,green,black) !important; 
-    background: -webkit-linear-gradient(left,green,green,green,green,black,green,black,green,black) !important;
-  background: -moz-linear-gradient(left,green,green,green,green,black,green,black,green,black) !important;
-  animation: rainbowbar 1s linear infinite;
-  -webkit-animation: rainbowbar 1s linear infinite; 
+padding: 3px !important;
+border-radius: 5px !important;
+text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+background: linear-gradient(left,#FE2E64,#FA58AC)!important;
+background: -webkit-linear-gradient(left,#FE2E64,#FA58AC)!important;
+background: -moz-linear-gradient(left,#FE2E64,#FA58AC)!important;
+animation: rainbowbar 1s linear infinite;
+-webkit-animation: rainbowbar 1s linear infinite;
 }
 
 /* Achtung */
@@ -134,9 +134,9 @@ border: 0px !important;
 padding: 3px !important;
 border-radius: 5px !important;
 text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
-background: linear-gradient(left,#FE2E64,#FA58AC)!important;
-background: -webkit-linear-gradient(left,#FE2E64,#FA58AC)!important;
-background: -moz-linear-gradient(left,#FE2E64,#FA58AC)!important;
+background: linear-gradient(left,#fec12e,#fac258)!important;
+background: -webkit-linear-gradient(left,#fec12e,#fac258)!important;
+background: -moz-linear-gradient(left,#fec12e,#fac258)!important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
