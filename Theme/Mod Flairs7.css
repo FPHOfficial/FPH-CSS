@@ -127,7 +127,7 @@ animation: rainbowbar 1s linear infinite;
 
 /* Achtung */
 
-.content a[href$="/user/Archangelle_Achtung"]:after {
+.content a[href$="/user/Achtung_Shitlord"]:after {
 content: "buchstäblich Hitler";
 color: white !important;
 white-space: nowrap !important;
