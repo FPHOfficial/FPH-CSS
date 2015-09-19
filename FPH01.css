@@ -200,6 +200,104 @@ border-radius: 5px;
 color:#3FBF4C !important;
 }
 
+/* Tags for NSFW or NSFL */
+
+.submission .title[title*="Nsfw"]::before {
+    content: "NSFW";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.submission .title[title*="NSFW"]::before {
+    content: "NSFW";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.submission .title[title*="nsfw"]::before {
+    content: "NSFW";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.submission .title[title*="Nsfl"]::before {
+    content: "NSFL";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.submission .title[title*="NSFL"]::before {
+    content: "NSFL";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.submission .title[title*="nsfl"]::before {
+    content: "NSFL";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #f00d0d;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #fff;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
 /*-------------
 FLAIRS
 
