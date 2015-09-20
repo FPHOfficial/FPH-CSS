@@ -23,7 +23,7 @@
 .whoaversename img {float:right;display:none;}
 
 
-/* ! Header
+/* ! Header image
 -------------------------------------------------------------------------------- */
 #header {
   background: 
@@ -196,9 +196,27 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 border:1px solid #000;
 border-radius: 5px;
 }
+
+/* Distinguished comment color */
+
 .moderator{
 color:#3FBF4C !important;
 }
+
+/* Score bars */
+
+.scorebar-likes {
+    background: #9c9999;
+    clear: both;
+    width: 100%;
+}
+.scorebar-dislikes {
+    background: #1e9ef9;
+    clear: both;
+    width: 100%;
+}
+
+
 
 /* Tags for NSFW or NSFL */
 
@@ -348,8 +366,9 @@ FLAIRS
         color:        #F9FBFF;
     }
 
-.flair:empty {
     /* fix for unflaired discussion pages */
+
+.flair:empty {
     display: none; }
 
 
