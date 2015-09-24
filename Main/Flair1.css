@@ -7,6 +7,9 @@ a:after{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: 
 a[href$="/user/Swoledamort"]:after
 { content: "Too Many Dicks in Ass"; }
 
+a[href$="/user/technician90"]:after
+{ content: "Creator of Slimgr"; }
+
 a[href$="/user/the_penis_apprentice"]:after
 { content: "Sucks too much dick"; }
 
@@ -155,7 +158,6 @@ a[href$="/user/PureFix"]:after,
 a[href$="/user/diggeler"]:after,
 a[href$="/user/yourhero7"]:after,
 a[href$="/user/CttCJim"]:after,
-a[href$="/user/technician90"]:after,
 a[href$="/user/cassis"]:after,
 a[href$="/user/Shimmy"]:after,
 a[href$="/user/joelmooner"]:after,
