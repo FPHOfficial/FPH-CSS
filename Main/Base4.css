@@ -549,8 +549,8 @@ FLAIRS
     width: 100%;
 }
 .side .md > ul li {
-    max-height: 0;
-    visibility:hidden;
+    display: none;
+    padding: 4px;
 }
 .side .md > ul li ~ li {
     border-top: 1px solid;
@@ -559,21 +559,12 @@ FLAIRS
     #background: #f7f7f7;
 }
 .side .md > ul li:first-child {
-    visibility: visible;
-    max-height: 50px;
     display: block;
     font-weight: bold;
     font-size: 16px;
-    border-bottom: 1px solid;
 }
 .side .md > ul:hover li {
-    visibility: visible;
-    overflow-y: hidden;
-    max-height: 50px;
-    border-bottom: none;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: cubic-bezier(0, 1, 5, 1);
+    display: block;
 }
 
         /* ! Downvote message
