@@ -550,10 +550,7 @@ FLAIRS
 }
 .side .md > ul li {
     max-height: 0;
-    opacity:0;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: cubic-bezier(0, 1, 5, 1);
+    visibility:hidden;
 }
 .side .md > ul li ~ li {
     border-top: 1px solid;
@@ -562,7 +559,7 @@ FLAIRS
     #background: #f7f7f7;
 }
 .side .md > ul li:first-child {
-    opacity:1;
+    visibility: visible;
     max-height: 50px;
     display: block;
     font-weight: bold;
@@ -570,7 +567,7 @@ FLAIRS
     border-bottom: 1px solid;
 }
 .side .md > ul:hover li {
-    opacity:1;
+    visibility: visible;
     overflow-y: hidden;
     max-height: 50px;
     border-bottom: none;
