@@ -316,6 +316,187 @@ color:#3FBF4C !important;
     box-sizing: border-box;
 }
 
+/* Start Sprite sheet */
+
+#manage,
+#mail.havemail,
+#mail.nohavemail,
+#nightmodetoggle,
+.arrow-upvote,
+.arrow-upvoted,
+.arrow-downvote,
+.arrow-downvoted,
+.comment .arrow-upvote,
+.comment .arrow-upvoted,
+.comment .arrow-downvote,
+.comment .arrow-downvoted,
+.expando-button.selftext.collapsed,
+.expando-button.selftext.expanded,
+.expando-button.selftext.loading {
+	background-image: url( http://i.imgur.com/FwcYFdC.png ) !important;
+}
+
+
+.light #manage {
+    background-position: 0 -364px;
+    width: 16px;
+    height: 16px;
+}
+
+.dark #manage {
+    background-position: -48px -364px;
+    width: 16px;
+    height: 16px;
+}
+
+/* mail */
+
+#mail.havemail,
+#mail.nohavemail {
+    width: 18px;
+    height: 12px;
+}
+
+.light #mail.havemail {
+    background-position: 0 -13px ;
+}
+.dark #mail.havemail {
+    background-position: -46px -13px ;
+}
+#mail.nohavemail {
+    background-position: 0 0;
+}
+/* toggle night mode */
+
+.light #nightmodetoggle {
+    background-position: 0 -347px;
+    width: 10px;
+    height: 16px;
+}
+
+.dark  #nightmodetoggle {
+    background-position: -54px -347px;
+    width: 10px;
+    height: 16px;
+}
+
+/* voting arrows */
+.arrow-upvote,
+.arrow-upvoted,
+.arrow-downvote,
+.arrow-downvoted {
+    width: 16px;
+    height: 16px;
+}
+.arrow-upvote {
+    background-position: 0 -26px;
+}
+.arrow-upvoted {
+    background-position: 0 -43px;
+}
+.arrow-downvote {
+    background-position: 0 -60px;
+}
+.arrow-downvoted {
+    background-position: 0 -77px;
+}
+
+.comment .arrow-upvote,
+.comment .arrow-upvoted,
+.comment .arrow-downvote,
+.comment .arrow-downvoted {
+    width: 12px;
+    height: 12px;
+}
+.comment .arrow-upvote {
+    background-position: 0 -94px;
+}
+.comment .arrow-upvoted {
+    background-position: 0 -107px;
+}
+.comment .arrow-downvote {
+    background-position: 0 -120px;
+}
+.comment .arrow-downvoted {
+    background-position: 0 -133px;
+}
+/* mobile voting arrows */
+
+@media ( max-width: 700px) {
+    .comment .arrow-upvote,
+    .comment .arrow-upvoted,
+    .comment .arrow-downvote,
+    .comment .arrow-downvoted {
+        width: 16px;
+        height: 16px;
+    }
+    .comment .arrow-upvote {
+        background-position: 0 -94px;
+    }
+    .comment .arrow-upvoted {
+        background-position: 0 -107px;
+    }
+    .comment .arrow-downvote {
+        background-position: 0 -120px;
+    }
+    .comment .arrow-downvoted {
+        background-position: 0 -133px;
+    }
+}
+/* expandos */
+
+.expando-button.selftext.collapsed,
+.expando-button.selftext.collapsed:hover,
+.expando-button.selftext.expanded,
+.expando-button.selftext.expanded:hover,
+.expando-button.selftext.loading,
+.expando-button.selftext.loading:hover {
+    width: 27px;
+    height: 22px;
+}
+.expando-button.selftext.collapsed {
+    background-position: -37px -146px;
+}
+.expando-button.selftext.collapsed:hover {
+    background-position: -37px -169px;
+}
+.expando-button.selftext.expanded {
+    background-position: -37px -192px;
+}
+.expando-button.selftext.expanded:hover {
+    background-position: -37px -215px;
+}
+.expando-button.selftext.loading {
+    background-position: 0 -214px;
+}
+.expando-button.selftext.loading:hover {
+    background-position: 0 -231px;
+}
+/* mobile expandos */
+
+@media ( max-width: 700px) {
+    .expando-button.selftext.collapsed,
+    .expando-button.selftext.expanded,
+    .expando-button.selftext.loading {
+        width: 32px;
+        height: 32px;
+    }
+    .expando-button.selftext.collapsed,
+    .expando-button.selftext.collapsed:hover {
+        background-position: 0  -248px;
+    }
+    .expando-button.selftext.expanded,
+    .expando-button.selftext.expanded:hover {
+        background-position: 0 -281px;
+    }
+    .expando-button.selftext.loading,
+    .expando-button.selftext.loading:hover {
+        background-position: 0 -314px;
+    }
+}
+
+/* End Sprite sheet */
+
 /*-------------
 FLAIRS
 
