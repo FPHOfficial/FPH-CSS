@@ -368,13 +368,13 @@ color:#3FBF4C !important;
 }
 /* toggle night mode */
 
-.light #nightmodetoggle {
+.dark #nightmodetoggle {
     background-position: 0 -347px;
     width: 10px;
     height: 16px;
 }
 
-.dark  #nightmodetoggle {
+.light  #nightmodetoggle {
     background-position: -54px -347px;
     width: 10px;
     height: 16px;
