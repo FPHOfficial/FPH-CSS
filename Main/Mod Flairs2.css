@@ -16,7 +16,7 @@ animation: rainbowbar 1s linear infinite;
 
 
 /* Homer */
-
+/*
 .content a[href$="/user/HomerSimpson"]:after {
 content: "Metaphorically Hitler";
 color: black !important;
@@ -42,7 +42,7 @@ background: -moz-linear-gradient(left,#DBA901,#FFBF00,#FACC2E,#F7D358,#FFFF00,#F
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
-
+*/
 /* Berry */
 
  .content a[href$="/user/SportyStrawberry"]:after{
