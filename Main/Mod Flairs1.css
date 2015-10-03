@@ -109,6 +109,20 @@ animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
 
+.content a[href$="/user/Leelem0n"]:after {
+content: "Lifting Hitler";
+border: 0px !important;
+color: white !important;
+padding: 3px !important;
+border-radius: 5px !important;
+text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+background: linear-gradient(left,#FFFF00,#31B404,#FE9A2E)!important;
+background: -webkit-linear-gradient(left,#FFFF00,#31B404,#FE9A2E)!important;
+background: -moz-linear-gradient(left,#FFFF00,#31B404,#FE9A2E)!important;
+animation: rainbowbar 1s linear infinite;
+-webkit-animation: rainbowbar 1s linear infinite;
+}
+
 /* Hammy */
 
 .content a[href$="/user/HamathaMcBeetusButt"]:after {
