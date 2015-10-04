@@ -1,4 +1,31 @@
-/* TPW */
+a[href$="/user/The_Penis_Wizard"]:after { background: #DF0101;content: "Literally Hitler"; }
+  
+a[href$="/user/HamathaMcBeetusButt"]:after { background: #F003F2;content: "Poetically Hitler"; }
+
+a[href$="/user/Space_ninja"]:after { background: #5533EC;content: "Offensively Hitler"; }
+
+a[href$="/user/Space_Ninja"]:after { background: #5533EC;content: "Offensively Hitler"; }
+
+a[href$="/user/homersimpson"]:after { background: #2ad42a;content: "Metaphorically Hitler"; }
+ 
+a[href$="/user/HomerSimpson"]:after { background: #2ad42a;content: "Metaphorically Hitler"; }
+ 
+a[href$="/user/shmuklidooha"]:after { background: #00c5ff;content: "Figuratively Hitler"; }
+ 
+a[href$="/user/SportyStrawberry"]:after { background: #e31860;content: "Actively Hitler"; }
+
+a[href$="/user/sportystrawberry"]:after { background: #e31860;content: "Actively Hitler"; }
+
+a[href$="/user/12_Years_A_Toucan"]:after { background: #e1d812; content: "Hitler's Toucan"; }
+
+a[href$="/user/Archangelle_Achtung"]:after { background: #ff6633; content: "buchstäblich Hitler"; }
+ 
+a[href$="/user/leelem0n"]:after { background: #ebf094; content: "Lifting Hitler"; }
+
+a[href$="/user/Leelem0n"]:after { background: #ebf094; content: "Lifting Hitler"; }
+
+
+/* TPW 
 
  .content a[href$="/user/The_Penis_Wizard"]:after {
 content: "Literally Hitler";
@@ -13,9 +40,9 @@ background: -moz-linear-gradient(left,#c10b0b,#c10b0b,#c10b0b,#df0101,#df0101) !
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-
-/* Homer */
+/* Homer 
 
 .content a[href$="/user/HomerSimpson"]:after {
 content: "Metaphorically Hitler";
@@ -42,8 +69,9 @@ background: -moz-linear-gradient(left,#DBA901,#FFBF00,#FACC2E,#F7D358,#FFFF00,#F
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-/* Berry */
+/* Berry 
 
  .content a[href$="/user/SportyStrawberry"]:after{
 content: "Actively Hitler";
@@ -58,9 +86,9 @@ background: -moz-linear-gradient(left,#F6CECE,#F5A9A9,#F78181,#FA5858,#FE2E2E,#F
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-
-/* Space NInja */
+/* Space NInja 
 
 .content a[href$="/user/Space_ninja"]:after {
 content: "Offensively Hitler";
@@ -75,9 +103,9 @@ background: -moz-linear-gradient(left,white,white,black,black,white,white) !impo
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-
-/* Shmmuks */
+/* Shmmuks 
 
 .content a[href$="/user/shmuklidooha"]:after {
 content: "Figuratively Hitler";
@@ -92,8 +120,9 @@ background: -moz-linear-gradient(left,#08088A,#08088A,#08088A,#013ADF,#013ADF) !
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-/* Lee */
+/* Lee 
 
 .content a[href$="/user/leelem0n"]:after {
 content: "Lifting Hitler";
@@ -122,8 +151,9 @@ background: -moz-linear-gradient(left,#FFFF00,#31B404,#FE9A2E)!important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-/* Hammy */
+/* Hammy 
 
 .content a[href$="/user/HamathaMcBeetusButt"]:after {
 content: "Poetically Hitler";
@@ -138,8 +168,9 @@ background: -moz-linear-gradient(left,#FE2E64,#FA58AC)!important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-/* Achtung */
+/* Achtung 
 
 .content a[href$="/user/Achtung_Shitlord"]:after {
 content: "buchstäblich Hitler";
@@ -155,8 +186,9 @@ background: -moz-linear-gradient(left,#fec12e,#58d5fa)!important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
+*/
 
-/* Toucan */
+/* Toucan 
 
 .content a[href$="/user/12_Years_A_Toucan"]:after {
 content: "Hitler's Toucan";
@@ -172,7 +204,7 @@ background: -moz-linear-gradient(left,red,orange,yellow,orange,red) !important;
 animation: rainbowbar 1s linear infinite;
 -webkit-animation: rainbowbar 1s linear infinite;
 }
-
+*/
 /* Bot Account */
 
  .content a[href$="/user/Bot Account"]:after {
