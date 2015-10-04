@@ -216,7 +216,61 @@ color:#3FBF4C !important;
     width: 100%;
 }
 
+/* Thumbnails for NSFW/NSFL */
 
+img[alt*="[NSFW"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/fgQ4vdm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+img[alt*="[Nsfw"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/fgQ4vdm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+img[alt*="[nsfw"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/fgQ4vdm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+img[alt*="[NSFL"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/esm0gAB.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img[alt*="[Nsfl"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/esm0gAB.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img[alt*="[nsfl"] {
+    width:0px; 
+    height:0px; 
+    padding: 34px;
+    background-image: url("https://i.imgur.com/esm0gAB.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 /* Tags for NSFW or NSFL */
 
