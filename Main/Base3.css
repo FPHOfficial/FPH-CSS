@@ -218,7 +218,7 @@ color:#3FBF4C !important;
 
 /* Thumbnails for NSFW/NSFL */
 
-img[alt*="[NSFW"] {
+img[alt*="NSFW"] {
     width:0px; 
     height:0px; 
     padding: 34px;
@@ -227,7 +227,7 @@ img[alt*="[NSFW"] {
     background-repeat: no-repeat;
 } 
 
-img[alt*="[Nsfw"] {
+img[alt*="Nsfw"] {
     width:0px; 
     height:0px; 
     padding: 34px;
@@ -236,7 +236,7 @@ img[alt*="[Nsfw"] {
     background-repeat: no-repeat;
 } 
 
-img[alt*="[nsfw"] {
+img[alt*="nsfw"] {
     width:0px; 
     height:0px; 
     padding: 34px;
@@ -245,7 +245,7 @@ img[alt*="[nsfw"] {
     background-repeat: no-repeat;
 } 
 
-img[alt*="[NSFL"] {
+img[alt*="NSFL"] {
     width:0px; 
     height:0px; 
     padding: 34px;
@@ -254,7 +254,7 @@ img[alt*="[NSFL"] {
     background-repeat: no-repeat;
 }
 
-img[alt*="[Nsfl"] {
+img[alt*="Nsfl"] {
     width:0px; 
     height:0px; 
     padding: 34px;
@@ -263,7 +263,7 @@ img[alt*="[Nsfl"] {
     background-repeat: no-repeat;
 }
 
-img[alt*="[nsfl"] {
+img[alt*="nsfl"] {
     width:0px; 
     height:0px; 
     padding: 34px;
