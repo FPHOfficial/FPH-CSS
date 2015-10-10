@@ -274,8 +274,24 @@ img[alt*="nsfl"] {
 
 /* Tags for NSFW or NSFL */
 
-.submission .title[title*="[ALBUM]"]::before {
-    content: " ACHTUNG STINKS";
+.submission .title[title*="[SLIMGR]"]::before {
+    content: "SLIMGR";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #585555;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #e70303;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+/*.submission .title[title*="[ALBUM]"]::before {
+    content: "";
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
@@ -288,7 +304,7 @@ img[alt*="nsfl"] {
     padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
-}
+}*/
 
 .submission .title[title*="Nsfw"]::before {
     content: "NSFW";
