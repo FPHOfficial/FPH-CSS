@@ -274,6 +274,22 @@ img[alt*="nsfl"] {
 
 /* Tags for NSFW or NSFL */
 
+.submission .title[title*="[ALBUM]"]::before {
+    content: " ACHTUNG STINKS";
+    font-size: small;
+    font-weight: normal;
+    margin-top: -1px;
+    background: #ff6633;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #000;
+    line-height: 150%;
+    margin-right: 3px;
+    padding: 2px 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
 .submission .title[title*="Nsfw"]::before {
     content: "NSFW";
     font-size: small;
