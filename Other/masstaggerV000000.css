@@ -6,8 +6,8 @@ margin-left: 0.5em;
 margin-right: 3px;
 padding: 2px 4px;
 vertical-align: middle;
-float: right;}
 margin: 0 0 10px 10px;
+float: right;}
 
 a[href$="/user/The_Penis_Wizard"]:before
 { content: "Testing Mass Tagger" !important; }
