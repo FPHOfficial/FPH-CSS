@@ -1,0 +1,4 @@
+a:before{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; float: right;}
+
+a[href$="/user/The_Penis_Wizard"]:before
+{ content: "Testing Mass Tagger" !important; }
