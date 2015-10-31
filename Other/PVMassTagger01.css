@@ -1,0 +1,23 @@
+a[href$="/user/w00zi"]:before,
+a[href$="/user/jambo"]:before,
+a[href$="/user/Mattvision"]:before,
+a[href$="/user/mamwad"]:before,
+a[href$="/user/AmeleksGirlfriend"]:before,
+a[href$="/user/moliver"]:before,
+a[href$="/user/nonillion"]:before,
+a[href$="/user/Polygoner"]:before,
+a[href$="/user/0x00"]:before,
+a[href$="/user/breddit"]:before,
+a[href$="/user/Zaebos_11"]:before,
+a[href$="/user/VoutGuy"]:before,
+a[href$="/user/JJEvil"]:before{ 
+background: #DF0101;
+border: 2px solid #000;
+border-radius: 30px;
+color: #000;
+line-height: 150%;
+margin-left: 0.5em;
+margin-right: 3px;
+padding: 6px 10px;
+vertical-align: middle;
+content: "Spammer" !important; }
