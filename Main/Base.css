@@ -274,20 +274,25 @@ img[alt*="nsfl"] {
 
 /* Tags for NSFW or NSFL */
 
-.submission .title[title*="[SLIMGR]"]::before {
-    content: "SLIMGR";
-    font-size: small;
-    font-weight: normal;
-    margin-top: -1px;
-    background: #585555;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #e70303;
-    line-height: 150%;
-    margin-right: 3px;
-    padding: 2px 4px;
-    vertical-align: middle;
-    box-sizing: border-box;
+.submission .title[title*="[Meta]"]::before {
+	content: "SLIMGR";
+	color: #df3901 ;
+	font-size: small;
+	font-weight: normal;
+	margin-top: -1px;
+	line-height: 150%;
+	margin-right: 3px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border: 0px ;
+	padding: 3px! important;
+	border-radius: 5px ;
+	text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+	background: linear-gradient(left,#333333,gray) ;
+	background: -webkit-linear-gradient(left,#333333,gray);
+	background: -moz-linear-gradient(left,#333333,gray);
+	animation: rainbowbar 1s linear infinite;
+	-webkit-animation: rainbowbar 1s linear infinite;
 }
 
 /*.submission .title[title*="[ALBUM]"]::before {
@@ -311,15 +316,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 .submission .title[title*="NSFW"]::before {
@@ -327,15 +337,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 .submission .title[title*="nsfw"]::before {
@@ -343,15 +358,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 .submission .title[title*="Nsfl"]::before {
@@ -359,15 +379,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 .submission .title[title*="NSFL"]::before {
@@ -375,15 +400,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 .submission .title[title*="nsfl"]::before {
@@ -391,15 +421,20 @@ img[alt*="nsfl"] {
     font-size: small;
     font-weight: normal;
     margin-top: -1px;
-    background: #f00d0d;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #fff;
     line-height: 150%;
     margin-right: 3px;
-    padding: 2px 4px;
     vertical-align: middle;
     box-sizing: border-box;
+    border: 0px ;
+    color: white ;
+    padding: 3px ;
+    border-radius: 5px ;
+    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+    background: linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -webkit-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    background: -moz-linear-gradient(left,#610b0b,#610b0b,#8a0808) ;
+    animation: rainbowbar 1s linear infinite;
+    -webkit-animation: rainbowbar 1s linear infinite;
 }
 
 /* Start Sprite sheet */
