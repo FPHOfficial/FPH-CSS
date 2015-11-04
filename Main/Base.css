@@ -742,6 +742,26 @@ FLAIRS
                     border-color: #D681FF;
                 }
 
+/* Comment box text */
+
+.light #siteTable + form > #Content {
+    background-image: url(https://i.sli.mg/mfSI8d.png);
+    background-repeat: no-repeat;
+}
+.light #siteTable +form > #Content:focus {
+    background-position: 0 -104px;
+    right: -50px
+}
+
+.dark #siteTable + form > #Content {
+    background-image: url(https://i.sli.mg/KXxF64.png);
+    background-repeat: no-repeat;
+}
+.dark #siteTable +form > #Content:focus {
+    background-position: 0 -104px;
+    right: -50px
+}
+
 /* EDIT MODERATOR BOX */
 .side .helplink + .title h1 { display: none; }
 .side .helplink + .title::before { 
