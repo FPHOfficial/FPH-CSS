@@ -634,7 +634,7 @@ div.content{
 	margin-bottom:10px
 }
 
-.side #search{
+.side .form-control{
 	position:relative;
 	z-index:100;
 	display:block!important;
@@ -643,11 +643,11 @@ div.content{
 	background:transparent url("//b.thumbs.redditmedia.com/8vGosE8dVNs6GsO7.png") no-repeat
 }
 
-.side #search:hover{
+.side .form-control:hover{
 	background-position:0 -71px
 }
 
-.side #search input[type="text"]{
+.side .form-control input[type="text"]{
 	margin:20px 0 0 30px;
 	padding:2px 0 0 65px;
 	width:240px;
@@ -661,7 +661,7 @@ div.content{
 	border:0
 }
 
-.side #search .infobar{
+.side .form-control .infobar{
 	position:relative;
 	margin:0 0 0 20px;
 	width:280px;
@@ -670,23 +670,23 @@ div.content{
 	color:#F2ECE1
 }
 
-.side #search .infobar a{
+.side .form-control .infobar a{
 	color:#E5D2B2;
 	font-weight:bold
 }
 
-#search input[type=submit]{
+.form-control input[type=submit]{
 	display:none
 }
 
-#search input::-webkit-input-placeholder{
+.form-control input::-webkit-input-placeholder{
 	font-size:14px;
 	text-transform:uppercase;
 	text-shadow:-1px -1px 1px #BD8E00,1px 1px 1px #FFECAA;
 	color:#925900!important
 }
 
-input:-moz-placeholder,#search input[placeholder]{
+input:-moz-placeholder,.form-control input[placeholder]{
 	color:#925900!important
 }
 
