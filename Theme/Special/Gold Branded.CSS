@@ -848,8 +848,8 @@ h2 a[href$="/r/lounge/submit?selftext=true"]:hover{
 
 .sidecontentbox a.helplink{
 	position:absolute;
-	right:2px;
-	margin-top:41px;
+	right:7px;
+	margin-top:-48px;
 	padding:2px 2px 1px 2px!important;
 	color:#925900;
 	text-shadow:-1px -1px 1px #BD8E00,1px 1px 1px #FFECAA;
