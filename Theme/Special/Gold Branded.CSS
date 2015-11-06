@@ -743,18 +743,18 @@ div.leavemoderator{
 }
 
 .side h1{
-	display:block!important;
-	margin:10px -10px 0 -35px!important;
-	padding:12px 0 0 40px!important;
-	height:36px;
-	line-height:1.3;
-	font-size:16px!important;
-	font-weight:bold!important;
-	font-family:baskerville,palatino,"palatino linotype",georgia,serif;
-	text-transform:uppercase;
-	text-shadow:-1px -1px 1px #BD8E00,1px 1px 1px #FFECAA;
-	color:#925900!important;
-	background:transparent url("//d.thumbs.redditmedia.com/ObfaON52dubVgsZQ.png") top left no-repeat
+    display: block!important;
+    margin: 10px -30px 0 -35px!important;
+    padding: 12px 0 0 40px!important;
+    height: 48px;
+    line-height: 1.3;
+    font-size: 16px!important;
+    font-weight: bold!important;
+    font-family: baskerville,palatino,"palatino linotype",georgia,serif;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #BD8E00,1px 1px 1px #FFECAA;
+    color: #925900!important;
+    background: transparent url("//d.thumbs.redditmedia.com/ObfaON52dubVgsZQ.png") top left no-repeat;
 }
 
 .side h1:hover{
