@@ -1,50 +1,56 @@
 /* "This gives the background with the font for the text of the flair. */
 
-a:after{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle;}
+/* a:after{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle;} */
 
 /* Special Flairs */
 
+a[href$="/user/ShortWarrior"]:after
+{ content: "My hatred of fat-asses is ceaseless and complete (I blew TPW for this flair)";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
+
+a[href$="/user/LuciferCat"]:after
+{ content: "24 BMI and barely skating by";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
+
 a[href$="/user/Swoledamort"]:after
-{ content: "Too Many Dicks in Ass"; }
+{ content: "Too Many Dicks in Ass";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/technician90"]:after
-{ content: "Creator of Slimgr"; }
+{ content: "Creator of Slimgr";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/the_penis_apprentice"]:after
-{ content: "Sucks too much dick"; }
+{ content: "Sucks too much dick";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/The_Penis_Apprentice"]:after
-{ content: "Sucks too much dick"; }
+{ content: "Sucks too much dick";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/DatViet"]:after
-{ content: "Honorary Aryan"; }
+{ content: "Honorary Aryan";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/Miaiam"]:after
-{ content: "Likes Homer's D"; }
+{ content: "Likes Homer's D";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/LardHammer"]:after
-{ content: "Destroyer of Ham Planets"; }
+{ content: "Destroyer of Ham Planets";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/Duress56"]:after
-{ content: "Convicted Child Molester"; }
+{ content: "Convicted Child Molester";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/journalistsarelazy"]:after
-{ content: "Verified Spiderman"; }
+{ content: "Verified Spiderman";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/she"]:after
-{ content: "Verified Scary Jew Witch"; }
+{ content: "Verified Scary Jew Witch";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/G4"]:after
-{ content: "Verified Faggot"; }
+{ content: "Verified Faggot";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/moe"]:after
-{ content: "Verified Dog Fucker"; }
+{ content: "Verified Dog Fucker";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/JTtheGhost"]:after
-{ content: "Verified Auschwitz Survivor"; }
+{ content: "Verified Auschwitz Survivor";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/thegoldenboy"]:after
-{ content: "Verified Cuckold"; }
+{ content: "Verified Cuckold";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 /* "Verified Shitlord" flair FOLLOW THE WAY FLAIRS ARE SETUP */
 
@@ -146,7 +152,6 @@ a[href$="/user/MC_BarelyLegible"]:after,
 a[href$="/user/Lord_Shitlord"]:after,
 a[href$="/user/bieberhole_69"]:after,
 a[href$="/user/SetsAndReps"]:after,
-a[href$="/user/ConnieDeShuns"]:after,
 a[href$="/user/FatPeopleHateAccount"]:after,
 a[href$="/user/Daimao"]:after,
 a[href$="/user/LJM"]:after,
@@ -237,6 +242,75 @@ a[href$="/user/MrCrackALack"]:after,
 a[href$="/user/antisugar"]:after,
 a[href$="/user/KhanKhalifa"]:after,
 a[href$="/user/green_man"]:after,
+a[href$="/user/BigBadWolf"]:after,
+a[href$="/user/Robert_Archer"]:after,
+a[href$="/user/wmeth"]:after,
+a[href$="/user/pbateman"]:after,
+a[href$="/user/GinTrain"]:after,
+a[href$="/user/shitwink"]:after,
+a[href$="/user/C9"]:after,
+a[href$="/user/Tomtortoise"]:after,
+a[href$="/user/mk46gunner"]:after,
+a[href$="/user/L1amas"]:after,
+a[href$="/user/razzac11"]:after,
+a[href$="/user/BonesTheJester"]:after,
+a[href$="/user/droopy2525"]:after,
+a[href$="/user/Umrtvovacz"]:after,
+a[href$="/user/devoresekk"]:after,
+a[href$="/user/shitlordAnthrax"]:after,
+a[href$="/user/Wingedfoot13"]:after,
+a[href$="/user/itazuka"]:after,
+a[href$="/user/SirGutless"]:after,
+a[href$="/user/Proverbs23"]:after,
+a[href$="/user/LordShittington"]:after,
+a[href$="/user/Usualsuspect"]:after,
+a[href$="/user/ThisIsMyRealName"]:after,
+a[href$="/user/PsychicTaco115"]:after,
+a[href$="/user/ForTheTruth"]:after,
+a[href$="/user/imaginareality"]:after,
+a[href$="/user/The_ChosenOne"]:after,
+a[href$="/user/WhaleWails"]:after,
+a[href$="/user/BigBlackSock"]:after,
+a[href$="/user/00ellis"]:after,
+a[href$="/user/Thinnerprivilege"]:after,
+a[href$="/user/ShitlordCaleb"]:after,
+a[href$="/user/MrSaxoBeetus"]:after,
+a[href$="/user/Rokuah"]:after,
+a[href$="/user/fryabeetus"]:after,
+a[href$="/user/TunaAndCucumbers"]:after,
+a[href$="/user/uvulectomy"]:after,
+a[href$="/user/windingtables"]:after,
+a[href$="/user/pm_me_your_excuses"]:after,
+a[href$="/user/HamsAlwaysEatSnacks"]:after,
+a[href$="/user/blackie"]:after,
+a[href$="/user/Dacoon63"]:after,
+a[href$="/user/LessRealsMoreFeels"]:after,
+a[href$="/user/hulkingmanbeast"]:after,
+a[href$="/user/Cool-it-Fatboy"]:after,
+a[href$="/user/DishingShitLikeA"]:after,
+a[href$="/user/Swole_is_life"]:after,
+a[href$="/user/TehGlitch"]:after,
+a[href$="/user/WildHamBeastTamer"]:after,
+a[href$="/user/Apeabel"]:after,
+a[href$="/user/DirtAddsHP"]:after,
+a[href$="/user/Dueperdue"]:after,
+a[href$="/user/theeyeisnotsatisfied"]:after,
+a[href$="/user/hitlers_biggest_fan"]:after,
+a[href$="/user/thatdamnchef"]:after,
+a[href$="/user/Wwanker"]:after,
+a[href$="/user/MetaTrauma_Shitlord"]:after,
+a[href$="/user/allaboutthattreble"]:after,
+a[href$="/user/FriedrichNietzsche"]:after,
+a[href$="/user/PuddleGut"]:after,
+a[href$="/user/Totenglocke"]:after,
+a[href$="/user/aden"]:after,
+a[href$="/user/inablackbox"]:after,
+a[href$="/user/treyman780"]:after,
+a[href$="/user/RippedSeTXshitlord"]:after,
+a[href$="/user/DoctorShitlord_MD"]:after,
+a[href$="/user/AlexanderBlack96"]:after,
+a[href$="/user/Alephant"]:after,
+a[href$="/user/CB750F"]:after,
 a[href$="/user/ScreaminMime"]:after,
 a[href$="/user/ObeseRedditAdmin"]:after,
 a[href$="/user/entitledmoo"]:after,
@@ -282,11 +356,12 @@ a[href$="/user/code_guerilla"]:after,
 a[href$="/user/Raylan"]:after,
 a[href$="/user/PuddleGut"]:after
 
-{ content: "Verified Shitlord"; }
+{ content: "Verified Shitlord";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 /* "Verified Shitlady" flair */
 
 a[href$="/user/TattooedWife"]:after,
+a[href$="/user/ConnieDeShuns"]:after,
 a[href$="/user/FPHForever"]:after,
 a[href$="/user/thisuserhatesyou"]:after,
 a[href$="/user/i_am_the_ginger"]:after,
@@ -404,12 +479,56 @@ a[href$="/user/tinycicada"]:after,
 a[href$="/user/WiredBones"]:after,
 a[href$="/user/ObeseObituary"]:after,
 a[href$="/user/ilieksnow"]:after,
+a[href$="/user/EatYourKimchi"]:after,
+a[href$="/user/codeverydamnday"]:after,
+a[href$="/user/mmmmdonuts"]:after,
+a[href$="/user/Laurendark"]:after,
+a[href$="/user/canarynoir"]:after,
+a[href$="/user/Silverstaryu"]:after,
+a[href$="/user/Celtic_Queen"]:after,
+a[href$="/user/pomegranate"]:after,
+a[href$="/user/hornypickle"]:after,
+a[href$="/user/sociallyanxious"]:after,
+a[href$="/user/brachiosaurus_"]:after,
+a[href$="/user/canarynoir"]:after,
+a[href$="/user/Carsandsarcasm"]:after,
+a[href$="/user/ridsloth"]:after,
+a[href$="/user/curvygirl"]:after,
+a[href$="/user/cultural_dissenter"]:after,
+a[href$="/user/thelonelybench"]:after,
+a[href$="/user/Skinnyphat_sleestak"]:after,
+a[href$="/user/SweetStormy"]:after,
+a[href$="/user/McDoublechins"]:after,
+a[href$="/user/twhitucr"]:after,
+a[href$="/user/thighgapgoddess"]:after,
+a[href$="/user/Thinnerprivilege"]:after,
+a[href$="/user/ur_gradeschool_crush"]:after,
+a[href$="/user/clockworkgirl21"]:after,
+a[href$="/user/moistFUPAcheeze"]:after,
+a[href$="/user/hi5"]:after,
+a[href$="/user/HorsesHateHams"]:after,
+a[href$="/user/rainbow_ashtray"]:after,
+a[href$="/user/MaryJaneDoe"]:after,
+a[href$="/user/Makattack"]:after,
+a[href$="/user/shezbot"]:after,
+a[href$="/user/peripatetic"]:after,
+a[href$="/user/RedhairedLemur"]:after,
+a[href$="/user/nikesandheels"]:after,
+a[href$="/user/CertifiedShitlord"]:after,
+a[href$="/user/MolotovCocktail"]:after,
+a[href$="/user/FuckingEatLess"]:after,
+a[href$="/user/Slybunny"]:after,
+a[href$="/user/ChilledPorn"]:after,
+a[href$="/user/Gitoffmuhlawn"]:after,
+a[href$="/user/libertas_aut_mors"]:after,
+a[href$="/user/Donutday"]:after,
+a[href$="/user/Fuck-off-fatties"]:after,
 a[href$="/user/theepilepticferret"]:after,
 a[href$="/user/Chronicallydieting"]:after,
 a[href$="/user/Cyracs"]:after,
 a[href$="/user/SSfriendship"]:after,
 a[href$="/user/jdkthekid"]:after
-{ content: "Verified Shitlady"; }
+{ content: "Verified Shitlady";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 
 
