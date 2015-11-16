@@ -8,7 +8,7 @@
     border-radius: 10px;
     display: block;
 }
-.md h4 a{
+.md h4 a{l
     line-height: 330px;
     /* 210px  */
     width: 100%;
@@ -437,6 +437,61 @@ img[alt*="nsfl"] {
     -webkit-animation: rainbowbar 1s linear infinite;
 }
 
+/* Domain flairs */
+
+a.title:after {
+   background-image: url("https://i.sli.mg/TnIh43.png"); 
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    position: relative;
+    content: "";
+    display: inline-block;
+    margin-right: 5px ;
+    margin-top: 2px ;
+}
+
+a[href*="imgur.com"].title:after {
+    background-position: 0px -24px
+}
+a[href*="slimgur.com"].title:after,
+a[href*="slimgr.com"].title:after,
+a[href*="sli.mg"].title:after {
+    background-position: 0px -48px
+}
+a[href*="voat.co"].title:after {
+    background-position: 0px -72px
+}
+a[href*="reddit.com"].title:after {
+    background-position: 0px -96px
+}
+a[href*="archive.is"].title:after {
+    background-position: 0px -120px
+}
+a[href*="youtube.com"].title:after,
+a[href*="youtu.be"].title:after {
+    background-position: 0px -144px
+}
+a[href*="liveleak.com"].title:after {
+    background-position: 0px -168px
+}
+a[href*="gfycat.com"].title:after {
+    background-position: 0px -192px
+}
+a[href*="vimeo.com"].title:after {
+    background-position: 0px -192px
+}
+a[href*="veuwer.com"].title:after {
+    background-position: -80px 0px
+}
+a[href*="tumblr.com"].title:after {
+    background-position: -48px -16px
+}
+.titlebox .word {
+    display: none
+}
+
 /* Start Sprite sheet */
 
 #manage,
@@ -742,7 +797,7 @@ FLAIRS
                     border-color: #D681FF;
                 }
 
-/* Comment box text */
+/* Comment box warning text */
 
 .light #siteTable + form > #Content {
     background-image: url(https://i.sli.mg/mfSI8d.png);
@@ -751,6 +806,9 @@ FLAIRS
 .light #siteTable +form > #Content:focus {
     background-position: 0 -104px;
     right: -50px
+}
+.light #siteTable + form > #Content.valid {
+    background-image: none;
 }
 
 .dark #siteTable + form > #Content {
@@ -761,6 +819,10 @@ FLAIRS
     background-position: 0 -104px;
     right: -50px
 }
+.dark #siteTable + form > #Content.valid {
+    background-image: none;
+}
+
 
 /* EDIT MODERATOR BOX */
 .side .helplink + .title h1 { display: none; }
