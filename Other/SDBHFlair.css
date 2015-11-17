@@ -1,3 +1,4 @@
+
 /*====/ MASTER FLAIR SETTING /====*/
 [href^="/user/"]:not(upvoatsGiven)::after,
 [href^="/user/"]:not(upvoatsGiven)::before {
@@ -18,6 +19,118 @@
         white-space: nowrap;
         box-sizing: border-box;
         vertical-align: middle;
+}
+
+
+
+
+
+
+/*========/ SUBVERSE FLAIRS /=========*/
+
+[href^="/v/protectvoat"]::after {
+        background: #EFF705;
+        border: 1px solid #FA0019;
+        border-radius: 7px ;
+        color: #000;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        content: "Vigilant against cabal injustice.";
+}
+
+[href^="/v/soapboxbanhammer"]::after {
+        background: #EFF705;
+        border: 1px solid #FA0019;
+        border-radius: 7px ;
+        color: #000;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        content: "The birthplace of Voat autism.";
+}
+
+[href^="/v/soapboxbananahammock"]::after {
+        background: #EFF705;
+        border: 1px solid #FA0019;
+        border-radius: 7px ;
+        color: #000;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        content: "The lame alternative.";
+}
+
+[href^="https://np.reddit.com/r/SoapBoxBanHammer"]::after {
+        background: #EFF705;
+        border: 1px solid #FA0019;
+        border-radius: 7px ;
+        color: #000;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 9px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        content: "Fuck this place.";
+}
+
+[href^="/v/dice"]::after {
+        background: #0000FF;
+        border: 3px solid #00FFFF;
+        border-radius: 7px ;
+        color: #00FF00;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 3px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+        content: "PRAISE THE DICE!";
 }
 
 a[href="/user/Arotaes_Forgehammer"]::not(.upvoatsGiven) {
@@ -991,4 +1104,25 @@ a[href="/user/illpoet"]:not(upvoatsGiven)::after {
     vertical-align: middle;
     margin-right: .3em;
     border: hidden;
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven) {
+    visibility: hidden;
+    word-spacing: -999px;
+    letter-spacing: -999px;
+
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven)::after {
+    visibility: visible;
+    content: "DramaQueendude";
+    word-spacing: normal;
+    margin-bottom: 3px;
+    letter-spacing: normal;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: transparent;
+    color: #3399CC;
+    border-style: hidden;
 }
