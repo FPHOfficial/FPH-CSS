@@ -1,3 +1,25 @@
+/*====/ MASTER FLAIR SETTING /====*/
+[href^="/user/"]:not(upvoatsGiven)::after,
+[href^="/user/"]:not(upvoatsGiven)::before {
+        background: transparent;
+        border: 1px solid #FA0019;
+        border-radius: 7px ;
+        color: #000099;
+        display: inline-block;
+        font-family: inherit;
+        font-size: 10px;
+        letter-spacing: 1px;
+        line-height: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
+        overflow: hidden;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        box-sizing: border-box;
+        vertical-align: middle;
+}
+
 a[href="/user/Arotaes_Forgehammer"]::not(.upvoatsGiven) {
      visibility: hidden;
      word-spacing: -999px;
