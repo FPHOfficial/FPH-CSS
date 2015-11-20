@@ -483,10 +483,10 @@ a[href*="vimeo.com"].title:after {
     background-position: 0px -192px
 }
 a[href*="veuwer.com"].title:after {
-    background-position: -80px 0px
+    background-position: 0px -216px
 }
 a[href*="tumblr.com"].title:after {
-    background-position: -48px -16px
+    background-position: 0px -240px
 }
 .titlebox .word {
     display: none
