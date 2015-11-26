@@ -488,9 +488,7 @@ a[href*="veuwer.com"].title:after {
 a[href*="tumblr.com"].title:after {
     background-position: 0px -240px
 }
-.titlebox .word {
-    display: none
-}
+
 
 /* Start Sprite sheet */
 
