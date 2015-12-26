@@ -204,7 +204,7 @@ color:#3FBF4C !important;
 }
 
 /**back to top**/
-
+/*
 a[href$="#header"]  {
     position: fixed;
     top: auto;
@@ -248,7 +248,7 @@ a[href$="#header"]:hover:after {
     margin-top: 17px;
     opacity: 1;
 }
-
+*/
 
 /* Score bars */
 
