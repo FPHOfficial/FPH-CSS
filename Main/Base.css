@@ -1,7 +1,7 @@
 /* Sidebar image, 280x280 px plz */
 
 .dark .titlebox h4 a{
-    background: url(http://fphbanlogs.altervista.org/fph_bans_white.svg);
+    background: url(http://fphbanlogs.netne.net/fph_bans_white.svg);
     height: 330px;
     /* 210px  */
     width: 100%;
@@ -19,7 +19,7 @@
      display:inline-block;
 }
 .light .titlebox h4 a{
-    background: url(http://fphbanlogs.altervista.org/fph_bans.svg);
+    background: url(http://fphbanlogs.netne.net/fph_bans.svg);
     height: 330px;
     /* 210px  */
     width: 100%;
