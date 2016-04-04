@@ -31,9 +31,9 @@ a[href$="/user/Miaiam"]:after
 a[href$="/user/LardHammer"]:after
 { content: "Destroyer of Ham Planets";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
-a[href$="/user/Duress56"]:after
+/* a[href$="/user/Duress56"]:after
 { content: "Convicted Child Molester";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
-
+*/
 a[href$="/user/journalistsarelazy"]:after
 { content: "Verified Spiderman";background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
