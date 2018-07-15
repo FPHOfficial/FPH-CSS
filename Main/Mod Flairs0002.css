@@ -8,10 +8,8 @@ a[href$="/user/homersimpson"]:after { background: #2ad42a;content: "Metaphorical
 a[href$="/user/HomerSimpson"]:after { background: #2ad42a;content: "Metaphorically Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
  
 a[href$="/user/shmuklidooha"]:after { background: #00c5ff;content: "Figuratively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
- 
-a[href$="/user/SportyStrawberry"]:after { background: #e31860;content: "Actively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
-a[href$="/user/sportystrawberry"]:after { background: #e31860;content: "Actively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
+a[href$="/user/Speshul_Sn0wflake"]:after { background: #e31860;content: "Actively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
 a[href$="/user/12_Years_A_Toucan"]:after { background: #e1d812; content: "Hitler's Toucan";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
@@ -23,6 +21,11 @@ a[href$="/user/Leelem0n"]:after { background: #ebf094; content: "Lifting Hitler"
 
 a[href$="/user/Duress56"]:after { background: #bda0cb;content: "Convicted Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
 
+/*
+a[href$="/user/SportyStrawberry"]:after { background: #e31860;content: "Actively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
+
+a[href$="/user/sportystrawberry"]:after { background: #e31860;content: "Actively Hitler";border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-left: 0.5em;margin-right: 3px;padding: 2px 4px;vertical-align: middle; }
+*/
 
 /* TPW 
 
